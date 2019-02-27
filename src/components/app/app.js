@@ -21,7 +21,7 @@ export default class App extends Component {
     ],
     term: '',
     filter: 'all',  //active, all, done,
-    gitLink: `https://github.com/s1ntetik?tab=repositories`
+    gitLink: `https://github.com/s1ntetik/todoApp-React.git`
   };
 
   createTodoItem(label) {

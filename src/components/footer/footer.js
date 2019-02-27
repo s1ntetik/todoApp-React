@@ -5,7 +5,7 @@ const Footer = ({ gitLink }) => {
 
   return (
       <div className={'footer-link'}>
-        <a href={ 'gitLink' }>This App is on GitHub</a>
+        <a target={'_blank'} href={ gitLink }>This App is on GitHub</a>
       </div>
   )
 };
